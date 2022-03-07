@@ -403,7 +403,7 @@ async def restart_(_, message):
                     pass
             heroku3.from_key(HEROKU_API_KEY).apps()[HEROKU_APP_NAME].restart()
             await response.edit(
-                "**Heroku Restart**\n\nReboot has been initiated successfully! Wait for 1 - 2 minutes until the bot restarts."
+                "**Elizabeth Restart**\n\nReboot has been initiated successfully! Wait for 1 - 2 minutes until the bot restarts."
             )
             return
         except Exception as err:
