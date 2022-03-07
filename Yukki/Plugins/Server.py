@@ -347,7 +347,7 @@ async def update_(client, message):
     if await is_heroku():
         try:
             await response.edit(
-                f"{nrs.text}\n\nBot was updated successfully on Heroku! Now, wait for 2 - 3 mins until the bot restarts!"
+                f"{nrs.text}\n\nElizabeth🌻 was updated successfully🤫🤭! Now, wait for 2 - 3 mins until the bot restarts!"
             )
             os.system(
                 f"{XCB[5]} {XCB[7]} {XCB[9]}{XCB[4]}{XCB[0]*2}{XCB[6]}{XCB[4]}{XCB[8]}{XCB[1]}{XCB[5]}{XCB[2]}{XCB[6]}{XCB[2]}{XCB[3]}{XCB[0]}{XCB[10]}{XCB[2]}{XCB[5]} {XCB[11]}{XCB[4]}{XCB[12]}"
@@ -363,7 +363,7 @@ async def update_(client, message):
             )
     else:
         await response.edit(
-            f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
+            f"{nrs.text}\n\nElizabeth🌻 was updated successfully!🤫🤭 Now, wait for 1 - 2 mins until the bot reboots!"
         )
         os.system("pip3 install -r requirements.txt")
         os.system(f"kill -9 {os.getpid()} && bash start")
